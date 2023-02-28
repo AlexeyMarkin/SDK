@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+    width: fit-content;
+    min-width: 500px;
+    margin: 40px;
+    padding: 40px;
+}
+
+
+.card {
+    background: linear-gradient(270deg, #27f3c0e5, #87ffe0, #ffa087, #fff787);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nova Mono';
+    padding-bottom: 20px;
+    border: white solid 2px;
+    border-radius: 30px;
+    max-width: 800px;
+    box-shadow:10px 5px 5px grey;
+
+}
+
+
+button {
+    font-style: italic;
+    border: 2px white solid;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow:10px 5px 5px grey;
+    opacity: 0.7;
+}
+
+button:hover {
+        /* background: linear-gradient(270deg, #246655, #87ffe0, #ffa087, #ff87d2);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite; */
+      background: linear-gradient(270deg, #27f3c0e5, #87ffe0, #ffa087, #fff787);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.list-all-transactions {
+    text-align: center;
+    height: auto;
+    font-size: 18px;
+    min-height: 200px;
+}
+
+input {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.5;
+    border-radius: 10px;
+    border-color: white;
+}
+
+input:hover {
+    opacity: 0.9;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inputs-wrapper {
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.delete-certain-transaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: transparent;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.submit button {
+    padding-bottom: 60px;
+}
